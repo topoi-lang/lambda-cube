@@ -1,0 +1,22 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e3a4a2c4fb8a5bf315e313c12b605cb7e12205387f5b73d9314f44b5c2d289c7
+
+name:           untyped-lambda
+version:        0.1.0.0
+build-type:     Simple
+
+executable untyped-lambda
+  main-is: Main.hs
+  other-modules:
+      Paths_untyped_lambda
+  ghc-options: -Wall -Wno-name-shadowing
+  build-depends:
+      base <5
+    , containers
+    , megaparsec
+  default-language: Haskell2010
