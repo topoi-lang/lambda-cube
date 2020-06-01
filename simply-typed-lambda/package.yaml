@@ -1,0 +1,14 @@
+name: simply-typed-lambda
+version: 0.1.0.0
+
+ghc-options:
+- -Wall
+- -Wno-name-shadowing
+
+dependencies:
+- base < 5
+- containers
+- megaparsec
+
+executable:
+  main: Main.hs
