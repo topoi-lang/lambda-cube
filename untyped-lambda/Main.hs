@@ -9,7 +9,7 @@ main = test
 test :: IO ()
 test = do
     let test_input =
-        App (Lam "x" (BinOps Add (Var "x") (Lit (LInt 1)))) (Lit (LInt 2))
+          App (Lam "x" (BinOps Add (Var "x") (Lit (LInt 1)))) (Lit (LInt 2))
     print $ evaluate Map.empty test_input
 
 type Name = String
