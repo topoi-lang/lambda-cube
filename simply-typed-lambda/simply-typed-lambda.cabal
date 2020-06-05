@@ -1,0 +1,22 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 80ff58ca7c26fffa93e65a5de81e4cbf484781d89d691b464b7385a88379430a
+
+name:           simply-typed-lambda
+version:        0.1.0.0
+build-type:     Simple
+
+executable simply-typed-lambda
+  main-is: Main.hs
+  other-modules:
+      Paths_simply_typed_lambda
+  ghc-options: -Wall -Wno-name-shadowing
+  build-depends:
+      base <5
+    , containers
+    , mtl
+  default-language: Haskell2010

@@ -8,7 +8,7 @@ ghc-options:
 dependencies:
 - base < 5
 - containers
-- megaparsec
+- mtl
 
 executable:
   main: Main.hs
