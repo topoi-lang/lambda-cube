@@ -1,0 +1,14 @@
+name: lambda2
+version: 0.1.0.0
+
+ghc-options:
+- -Wall
+- -Wno-name-shadowing
+
+dependencies:
+- base < 5
+- containers
+- mtl
+
+executable:
+  main: Main.hs

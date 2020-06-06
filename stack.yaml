@@ -3,3 +3,4 @@ resolver: lts-15.14
 packages:
 - untyped-lambda/
 - simply-typed-lambda/
+- lambda-2
