@@ -104,7 +104,7 @@ newTyVar = do
 -- replaces all bound type variables in a type scheme with fresh type variables
 instantiate :: Scheme -> TI Type
 instantiate (Scheme vars t) = do
-    nvars <- mapM (\_ -> newTyVar) vars
+    nvars <- mapM (const newTyVar) vars
     let s = Map.fromList (zip vars nvars)
     return $ apply s t
 

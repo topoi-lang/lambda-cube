@@ -2,7 +2,7 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Lambda_Cube_img.svg/320px-Lambda_Cube_img.svg.png?1591352282805)
 
-## untyped-lambda
+# untyped-lambda
 Contains the untyped lambda calculus example, where all the terms are untyped. Only term and evaluated value in the language.
 ### Reference
 * [Write you a Haskell: lambda calculus](http://dev.stephendiehl.com/fun/003_lambda_calculus.html)
@@ -10,7 +10,7 @@ Contains the untyped lambda calculus example, where all the terms are untyped. O
 #### What is missing:
 * Omega Combinator which is a builtin that allows a lambda argument to itself, which allows recursions.
 
-## simply-typed-lambda
+# simply-typed-lambda
 Contains the STLC example, which add type annotation and type checking to the language. Now out language has two scopes (one is to store types, and one is for values).
 ### Reference
 * [Write you a Haskell: type systems](http://dev.stephendiehl.com/fun/004_type_systems.html)
@@ -18,10 +18,7 @@ Contains the STLC example, which add type annotation and type checking to the la
 #### What is missing / nice to have
 * A monad for type checking so that the type checking between expressions/files is possible.
 
---------
-to do.
-
-## lambda 2 (λ2)
+# lambda 2 (λ2)
 Terms depend on types, it has a lot of names (generic, parametric polymorphism, system F...). It is named lambda 2 because of the name "second order typed lambda calculus).
 
 A generic term is a term that works for any data type, if there is an instance for it. So we only write one definition and it will copied the same way, and generally acts the same way for different type.
